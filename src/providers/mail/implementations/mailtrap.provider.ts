@@ -1,4 +1,4 @@
-import { IMailAccess, IMessageMail } from "./imail-access.interface";
+import { IMailAccess, IMessageMail } from "../imail-access.interface";
 import nodemailer from 'nodemailer'
 import Mail from "nodemailer/lib/mailer";
 
@@ -8,7 +8,7 @@ export class MailTrap implements IMailAccess {
     constructor() {
         this.transporter = nodemailer.createTransport({
             host: "",
-            port: 2525,
+            port: 0,
             auth: {
                 user: "",
                 pass: ""

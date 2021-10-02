@@ -1,4 +1,4 @@
-import { MailTrap } from "../../providers/mail/implementations/mailtrap";
+import { MailTrap } from "../../providers/mail/implementations/mailtrap.provider";
 import { SendMailNewUserApplication } from "./send-mail-new-user.application";
 import { SendMailNewUserController } from "./send-mail-new-user.controller";
 

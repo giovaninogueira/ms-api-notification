@@ -1,4 +1,4 @@
-import { IMailAccess } from "../../providers/mail/implementations/imail-access.interface";
+import { IMailAccess } from "../../providers/mail/imail-access.interface";
 import { ISendMailNewUserDTO } from "./isend-mail-new-user-dto.interface";
 
 export class SendMailNewUserApplication {
